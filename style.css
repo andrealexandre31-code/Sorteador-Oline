@@ -95,4 +95,37 @@ button {
     width: 580px;
      
 }
-
+@media (max-width: 600px) and (orientation: landscape) {
+    h1 {
+        font-size: 50px;
+        width: 300px;
+    }
+    img {
+        width: 300px;
+    }
+    nav {
+        font-size: 20px;
+        width: 300px;
+    }
+    h2 {
+        font-size: 30px;
+        width: 300px;
+    }
+    section {
+        font-size: 20px;
+        width: 300px;
+    }
+    .input-min {
+        font-size: 20px;
+        width: 100px;
+    }
+    .input-max {
+        font-size: 20px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    button {
+        font-size: 20px;
+        width: 300px;
+    }
+}
